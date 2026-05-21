@@ -1,0 +1,21 @@
+Ethereum: 
+0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045
+
+BEP20: 0x6c7c936494140b4df4ea0d4ac00ea2182a7bbc54
+TRC20: TLqBzvju1yYePXNEYfD9PfxynM9fRq3kQX
+Ethereum: 0x6c7c936494140b4df4ea0d4ac00ea2182a7bbc54
+Solana: HxQjxJ9dQfDnCEbdz3bMSAiYDha7jsfLvsQJJpK5z55M
+TON: UQBXc_TnhV2_3KrDIQYEU1J7hk12M0Ye0eOBp7V0RQWXofHu
+TON(Tel): UQCr214l0r1HBsr5yO6hO61dGRpHnc7bJCyLAysQA17VjMke
+
+
+
+curl.exe http://localhost:5000/api/wallet/search/walletAddress
+
+
+transactionAnalysisService.js
+relationshipIntelligenceService.js
+custodyService.js
+riskScoringService.js
+intelligenceService.js
+exchangeCorrelationService.js

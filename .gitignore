@@ -1,0 +1,89 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+**/node_modules/
+
+# =========================
+# Build Outputs
+# =========================
+dist/
+build/
+.next/
+out/
+coverage/
+.cache/
+turbo/
+.vercel/
+
+# =========================
+# Environment Files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# OS / Editor Files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Blockchain / Web3
+# =========================
+artifacts/
+cache/
+typechain/
+broadcast/
+coverage.json
+
+# Hardhat
+backend/contracts/cache/
+backend/contracts/artifacts/
+
+# Foundry
+lib/
+out/
+
+# =========================
+# Database
+# =========================
+*.sqlite
+*.db
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Docker
+# =========================
+docker-data/
+
+# =========================
+# Testing
+# =========================
+playwright-report/
+test-results/
+
+# =========================
+# Misc
+# =========================
+*.pem
+*.key
+*.crt

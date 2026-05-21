@@ -1,0 +1,1223 @@
+{
+  "wallet": "UQCr214l0r1HBsr5yO6hO61dGRpHnc7bJCyLAysQA17VjMke",
+  "createdAt": 1779340300187,
+  "data": {
+    "walletOverview": {
+      "wallet": "UQCr214l0r1HBsr5yO6hO61dGRpHnc7bJCyLAysQA17VjMke",
+      "chain": "TON",
+      "exists": true,
+      "active": true,
+      "state": "active",
+      "txCount": 58,
+      "tokenCount": 1
+    },
+    "balances": {
+      "balanceBTC": 0,
+      "balanceETH": 0,
+      "balanceBNB": 0,
+      "balanceTON": 0.115163616
+    },
+    "assets": {
+      "tokens": [
+        {
+          "contract": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+          "name": "Tether USD",
+          "symbol": "USD₮",
+          "balance": 0,
+          "decimals": 6,
+          "logo": "https://cache.tonapi.io/imgproxy/T3PB4s7oprNVaJkwqbGg54nexKE0zzKhcrPv8jcWYzU/rs:fill:200:200:1/g:no/aHR0cHM6Ly90ZXRoZXIudG8vaW1hZ2VzL2xvZ29DaXJjbGUucG5n.webp",
+          "verification": "whitelist",
+          "stablecoin": true,
+          "fakeStablecoin": false,
+          "suspicious": false,
+          "riskScore": 0,
+          "riskFactors": []
+        }
+      ]
+    },
+    "intelligence": {
+      "riskScore": 0,
+      "riskLevel": "LOW",
+      "walletCategory": "Normal Wallet",
+      "activityLevel": "Low",
+      "suspiciousTokenCount": 0,
+      "fakeStablecoinCount": 0,
+      "findings": []
+    },
+    "transactionAnalysis": {
+      "summary": {
+        "totalTransactions": 58,
+        "stablecoinTransactions": 48,
+        "incomingTransactions": 0,
+        "outgoingTransactions": 48
+      },
+      "behavior": {
+        "p2pScore": 720,
+        "riskLevel": "HIGH",
+        "activityLevel": "HIGH",
+        "merchantProbability": 0,
+        "totalStablecoinIn": 0,
+        "totalStablecoinOut": 3331.735840000001,
+        "routingTransactions": 0,
+        "rapidSettlementCount": 0,
+        "repeatedAmounts": 24,
+        "gasRefills": 0,
+        "dexInteractions": 0,
+        "bridgeInteractions": 0,
+        "exchangeDeposits": 0,
+        "aggregatorRoutes": 0,
+        "uniqueCounterparties": 2,
+        "findings": [],
+        "analyzedTransactions": [
+          {
+            "hash": "73751d76ac6b46b96ed52b93a3fe2b0e0ed4db27bfa6632c569d864e1600a305",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 67.29,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-19T21:07:20.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "5ce2b7a072449ad73689df398a32cdf9dabc724bf77b9a51939a154783a20e72",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 67.29,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-19T21:04:01.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "03b38d9aaf74e85b3112ceeaec4ebd031a887e35f38ef91315459b89415358c2",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 74.59,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-19T07:58:21.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "280db07766b0d846be8c0e8323c974ad6edff6c06bf0d2d360b9e8c23884304f",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 74.59,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-19T07:55:01.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "fea9f77fb17d1b5f3168d3dd867dde06690ee4bb26b29d5b1e8836e3099ef975",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 76.87,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-19T06:46:37.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "d9a643eb3666f7e4e57e0a0407dba5b9165755dc62a6906b5c78938df55e2b42",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 76.87,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-19T06:46:02.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "ad629047c2bd8e306a2a17081dad3f8339cb58a14a75f888d4c77aaeaf6e48c7",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 78.18,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-18T13:15:37.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "b3be202ab2820009fbace782c66d9b0c4c66f07a24f5cfc019dc3c3b67562102",
+            "chain": "TON",
+            "from": "0:1b84c5a8b28c5ea174c98bd4e5c34f4c1233d5bdd25ef63d270ba2baae8d1dd6",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 78.18,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-18T13:15:10.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "33f6946859ff695049aa6ac66504a8474ab67c4cceaf7632a21a317135ae9638",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 72.59,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-18T06:00:27.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "dbd719471547f6c2cf68a1e55c979973fcdd888e4e7a39a84249b22a2823ada5",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 72.59,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-18T05:57:01.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "ab32748410033da9ceed5917be7fad0d8e332ed4322908e7c1e7aa64a3d336ee",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 73.19,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-17T12:51:45.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "a61043b283a37fc50c90ae0460519d290bd4c0c86b338ed7a33ba473447ad954",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 73.19,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-17T12:51:01.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "b46ad6f9db3721a9ba8b8f9359eb0800260eceb8298e332afecc46afc552ecd7",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 73.57,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-17T03:49:34.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "ac34bb406862d9c6d755c268a728a73af234fd772c3106f77275587afe8e1e10",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 73.57,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-17T03:49:01.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "742b300e4b822aafba34c6549b07a6fa105d24b5e3a1b169663b13310ab58852",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 73.68,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-16T06:27:41.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "946b5c4066c3938f79bbe172bbd5433ec9e5e486a24a61ef0617be92e258ebe1",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 73.68,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-16T06:27:02.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "cd901fe101f144e34d6d13794639c6c205870f529da033c59e8f5da7c76c7020",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 73.67,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-16T04:05:37.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "af6e8cde9245639cf8fb69917b19d1a8d755b6b56edab2bc3caeb2cb9f75d4b1",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 73.67,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-16T04:05:01.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "ae966c2b93060df6eb2a0635aa315b6ba341c24394ada280ded81ac79bee6dd5",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 73.92,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-15T12:32:43.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "0cf86854c4853e44d7a0fb7212892900136a4ad52bf2d0a6200fdbac0c022eb0",
+            "chain": "TON",
+            "from": "0:1b84c5a8b28c5ea174c98bd4e5c34f4c1233d5bdd25ef63d270ba2baae8d1dd6",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 73.92,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-15T12:32:12.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "a85669351e06c8841a4e64b49f2f9374e60bf6ce8b40ee0509423d48346ca645",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 70.93,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-14T16:21:39.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "18a93916891ca72cf401664039054548991e146dc06636eea0e76034fe489116",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 70.93,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-14T16:21:01.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "44c01aa06a41b47bd785e66ffff80d3f1a29f8e3ba87780d1825f6642d2960e7",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 70.71,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-14T06:50:59.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "193e410883164c73febe1adf7daa88cdce1381ddc5678426b2a9e992f263159c",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 70.71,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-14T06:50:02.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "1f5920b56ed621b5c10607023562cf2479cf469a0df3a0dcab621f05cc62ec3a",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 68.87,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-14T05:37:50.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "0f58134db37d307eae945eb529b342a6a2486dccded7569673f7d174096d87d6",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 68.87,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-14T05:37:01.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "e8921afd7e6f6cbda863bb25ff5880129ae45cd135a3ddf53ed12fdf9a371f95",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 17.88802,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-07T08:21:39.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "32e863cd55e6c8febf42fe0081c5cd48f034dca087008a39b1fd1417739ddc15",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 17.88802,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-07T08:21:02.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "9cb9fe02b919c0483a036bfdaa071d993f565ecb86b5dcb2632e4c2ca21cf6f9",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 88.39,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-07T04:06:49.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "4f435b3bebd7e8775072f1c6d4d8f2881bcda8029378ca3840c57b9fcf9506ce",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 88.39,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-07T04:06:02.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "86fb72516fd496e5f8755ad189e33a64ca08bb5d8d1311d46ce23f7ed6e0c43a",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 102.361327,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-06T09:31:38.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "939e7c246fa015484384e1d5a3ab80cc3f2077a7e1ea062f785e857fa8461422",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 102.361327,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-06T09:28:01.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "67bea1e55d7e1207569ae86f3290e1d99d428792b870bdc52995d78db9ab554a",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 99.34,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-06T06:27:56.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "50ad3476035a209de863a88b55cb89da729352820bb8db21f08ad064dd2c7645",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 99.34,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-06T06:27:01.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "66b9b7da1092b11fbe0dd6f698d8526f5ced1d30f3d1eb435bc706d93adc2388",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 99.304425,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-05T18:00:57.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "c6b87d08df34a76ef53a5e5fca80076b5b1296249ad356e3572d38be0934164a",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 99.304425,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-05T15:34:03.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "140391fd51bb3265b6a274c6309e15675fbf827da24ca4f345a169ff11fc30fd",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 99.524148,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-04T12:46:41.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "1e3a1100cb6b3c47faf145c1a45c6787595ad977b3ceb0d4d07a60a9a0004a46",
+            "chain": "TON",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 99.524148,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-04T12:46:01.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "2d709e8e6821a9ef16a9c609d65b55a284d4ac0bf3289858480ab78512786ce4",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 50,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-04T06:24:57.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "7703d76d93bd0531a03d4c1ee6be30646703ddb74b43d84333bb3602efbbf732",
+            "chain": "TON",
+            "from": "0:2cbe084dee9fd6f866d42df874da374f4fe38d0e7d741542ab134307b5b75475",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 50,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-04T06:24:23.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "64500b25e5dfbb45def0c00cc211777764655cc699b164e5baccd0e16c3fef72",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 100,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-03T17:39:56.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "bf651c655a3f842c870605683eadc6d80f3cb485fb7b71a43f661307f0523649",
+            "chain": "TON",
+            "from": "0:2cbe084dee9fd6f866d42df874da374f4fe38d0e7d741542ab134307b5b75475",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 100,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-03T17:39:06.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "5aec280846166a5e62d05dedfa55ee9b18a67c2501b833569265ca8d719e216a",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 35,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-02T06:13:43.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "af5758411c020b231555f5809aa4174195235a0aa1d8c19192c4572d4af62608",
+            "chain": "TON",
+            "from": "0:2cbe084dee9fd6f866d42df874da374f4fe38d0e7d741542ab134307b5b75475",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 35,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-02T06:13:10.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "a19bfbb551d88bd040830895753099ad09ffc628a972b76ead2ea2d4e8414328",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 15,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-01T04:48:59.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "e543342dafbb97cbf607f1c8294b023009bc14dc5c30135130feba351c9373bc",
+            "chain": "TON",
+            "from": "0:2cbe084dee9fd6f866d42df874da374f4fe38d0e7d741542ab134307b5b75475",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 15,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-01T04:48:15.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          },
+          {
+            "hash": "01061170623b01303590900b3004f644d140f39deea027117e0e1f5e47a15a8c",
+            "chain": "TON",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "value": 11,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-01T04:21:38.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+          },
+          {
+            "hash": "413db20e828bc8a98e57cade10829601548626d57bceefc3bf61e3697d13dbea",
+            "chain": "TON",
+            "from": "0:2cbe084dee9fd6f866d42df874da374f4fe38d0e7d741542ab134307b5b75475",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "value": 11,
+            "category": "jetton",
+            "blockNum": null,
+            "timestamp": "2026-05-01T04:21:08.000Z",
+            "direction": "OUT",
+            "stablecoin": true,
+            "classification": {
+              "type": "TRANSFER",
+              "protocol": null,
+              "confidence": "LOW",
+              "findings": []
+            },
+            "counterparty": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+          }
+        ]
+      },
+      "exchangeCorrelation": {
+        "detected": false,
+        "totalCorrelations": 0,
+        "correlations": []
+      },
+      "protocolFlows": {
+        "dexSwapCount": 0,
+        "bridgeTransferCount": 0,
+        "aggregatorRouteCount": 0,
+        "chainHops": 0,
+        "obfuscationRisk": 0,
+        "riskLevel": "LOW",
+        "findings": []
+      },
+      "temporalIntelligence": {
+        "mostActiveHourUTC": 6,
+        "rapidBursts": 33,
+        "nightActivity": 16,
+        "activityPattern": "Coordinated Settlement Window",
+        "riskScore": 378,
+        "riskLevel": "HIGH",
+        "findings": [
+          "Rapid burst transaction behavior detected",
+          "High late-night operational activity detected"
+        ]
+      },
+      "relationshipIntelligence": {
+        "possibleOperationalRelationship": true,
+        "confidence": 110,
+        "relationshipRisk": "HIGH",
+        "counterparties": 2,
+        "exchangeExposure": 0,
+        "repeatedRoutes": 0,
+        "gasFundingPatterns": 0,
+        "signals": [
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Repeated transfer amounts detected",
+          "Coordinated rapid settlement timing detected",
+          "High late-night operational activity detected",
+          "Coordinated operational timing pattern detected",
+          "Complex custody graph detected"
+        ],
+        "custodyPaths": 3,
+        "nodes": 3
+      },
+      "custody": {
+        "nodes": [
+          {
+            "id": "uqcr214l0r1hbsr5yo6ho61dgrphnc7bjcylaysqa17vjmke",
+            "wallet": "UQCr214l0r1HBsr5yO6hO61dGRpHnc7bJCyLAysQA17VjMke",
+            "chain": "TON",
+            "walletType": "Exchange",
+            "txCount": 48,
+            "active": true
+          },
+          {
+            "id": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "wallet": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "chain": "TON",
+            "walletType": "Exchange",
+            "txCount": 61,
+            "active": true
+          },
+          {
+            "id": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "wallet": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "chain": "TON",
+            "walletType": "Customer",
+            "txCount": 0,
+            "active": true
+          }
+        ],
+        "edges": [
+          {
+            "id": "73751d76ac6b46b96ed52b93a3fe2b0e0ed4db27bfa6632c569d864e1600a305-OUT",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "amount": 67.29,
+            "hash": "73751d76ac6b46b96ed52b93a3fe2b0e0ed4db27bfa6632c569d864e1600a305",
+            "timestamp": "2026-05-19T21:07:20.000Z",
+            "depth": 1,
+            "direction": "OUT"
+          },
+          {
+            "id": "5ce2b7a072449ad73689df398a32cdf9dabc724bf77b9a51939a154783a20e72-OUT",
+            "from": "0:ca1d9edeef40b3a9dbd9082f3767859547c3ce0bf641d09d58e33a3cf06fb309",
+            "to": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "asset": "USD₮",
+            "amount": 67.29,
+            "hash": "5ce2b7a072449ad73689df398a32cdf9dabc724bf77b9a51939a154783a20e72",
+            "timestamp": "2026-05-19T21:04:01.000Z",
+            "depth": 1,
+            "direction": "OUT"
+          },
+          {
+            "id": "03b38d9aaf74e85b3112ceeaec4ebd031a887e35f38ef91315459b89415358c2-OUT",
+            "from": "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c",
+            "to": "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e",
+            "asset": "USD₮",
+            "amount": 74.59,
+            "hash": "03b38d9aaf74e85b3112ceeaec4ebd031a887e35f38ef91315459b89415358c2",
+            "timestamp": "2026-05-19T07:58:21.000Z",
+            "depth": 1,
+            "direction": "OUT"
+          }
+        ],
+        "paths": [
+          {
+            "direction": "OUT",
+            "path": [
+              "UQCr214l0r1HBsr5yO6hO61dGRpHnc7bJCyLAysQA17VjMke",
+              "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+            ],
+            "stoppedReason": "Exchange sink detected"
+          },
+          {
+            "direction": "OUT",
+            "path": [
+              "UQCr214l0r1HBsr5yO6hO61dGRpHnc7bJCyLAysQA17VjMke",
+              "0:abdb5e25d2bd4706caf9c8eea13bad5d191a479dcedb242c8b032b10035ed58c"
+            ],
+            "stoppedReason": "No further transactions"
+          },
+          {
+            "direction": "OUT",
+            "path": [
+              "UQCr214l0r1HBsr5yO6hO61dGRpHnc7bJCyLAysQA17VjMke",
+              "0:ab3f2953472c0df8b2a5535b8c7e60768f1f07bcbe1c2b76683da1b692c3495e"
+            ],
+            "stoppedReason": "No further transactions"
+          }
+        ]
+      },
+      "amlAnalysis": {
+        "launderingScore": 0,
+        "launderingRisk": "LOW",
+        "rapidForwarding": 0,
+        "lowHoldingTime": 0,
+        "fanInWallets": 0,
+        "fanOutWallets": 2,
+        "circularRouting": 0,
+        "chainsUsed": 1,
+        "mixerIndicators": [],
+        "findings": []
+      }
+    },
+    "riskAnalysis": {
+      "riskScore": 10,
+      "riskLevel": "LOW",
+      "launderingProbability": 10,
+      "merchantConfidence": 0,
+      "exchangeExposure": 0,
+      "evidence": {
+        "operational": 0,
+        "laundering": 10,
+        "protocol": 0,
+        "temporal": 0,
+        "token": 0
+      },
+      "findings": [
+        "Complex fund flow graph detected"
+      ],
+      "investigationSummary": "Low-risk operational wallet behavior detected."
+    }
+  }
+}
+
